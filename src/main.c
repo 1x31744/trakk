@@ -29,9 +29,14 @@ void init() {
 	// SD card init
 	sd_init(CS_PIN);
 
+	gpio_put(LED_PIN, true);
+
+
 }
 
 int main() {
+	init();
+        
 	menuItem rootItems[2] = {
 		{.label="Add workout", .type=MENU_SUBMENU, .col=0, .row=0, .submenu=NULL},
 		{.label="Settings", .type=MENU_SUBMENU, .col=0, .row=1, .submenu=NULL}
