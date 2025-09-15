@@ -10,14 +10,6 @@
 #include "../include/b_matrix.h"
 #include "../include/menu.h"
 
-
-Menu root = {
-	"Main menu",
-
-
-
-}
-
 void init() {
 	// Initialize LED
 	gpio_init(LED_PIN);
@@ -40,19 +32,19 @@ void init() {
 }
 
 int main() {
-	menuItem rootItems[2]; = {
-		{.label="Add workout", .type=MENU_SUBMENU, .col=0, .row=0, .submenu=nullptr }
-		{.label="Settings", .type=MENU_SUBMENU, .col=0, .row=1, .submenu=nullptr }
-	}
+	menuItem rootItems[2] = {
+		{.label="Add workout", .type=MENU_SUBMENU, .col=0, .row=0, .submenu=NULL},
+		{.label="Settings", .type=MENU_SUBMENU, .col=0, .row=1, .submenu=NULL}
+	};
 
 	Menu root = {
 		.title="Home",
 		.items=rootItems,
 		.itemCount=2,
-		.parent=nullptr
-	}
+		.parent=NULL
+	};
 
-	menu_init(root);
+	menu_init(&root);
 	
 
 	/*

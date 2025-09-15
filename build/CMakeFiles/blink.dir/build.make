@@ -128,10 +128,24 @@ CMakeFiles/blink.dir/src/b_matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/src/b_matrix.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/TotallyOrdinaryPC/Documents/trakk/src/b_matrix.c -o CMakeFiles/blink.dir/src/b_matrix.c.s
 
+CMakeFiles/blink.dir/src/menu.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/src/menu.c.o: /home/TotallyOrdinaryPC/Documents/trakk/src/menu.c
+CMakeFiles/blink.dir/src/menu.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.dir/src/menu.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/src/menu.c.o -MF CMakeFiles/blink.dir/src/menu.c.o.d -o CMakeFiles/blink.dir/src/menu.c.o -c /home/TotallyOrdinaryPC/Documents/trakk/src/menu.c
+
+CMakeFiles/blink.dir/src/menu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/src/menu.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/TotallyOrdinaryPC/Documents/trakk/src/menu.c > CMakeFiles/blink.dir/src/menu.c.i
+
+CMakeFiles/blink.dir/src/menu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/src/menu.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/TotallyOrdinaryPC/Documents/trakk/src/menu.c -o CMakeFiles/blink.dir/src/menu.c.s
+
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_p
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_common/common.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_common/common.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_common/common.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_common/common.c.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -201,7 +215,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
@@ -215,7 +229,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardwa
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -229,7 +243,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -243,7 +257,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -256,7 +270,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -270,7 +284,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/sem.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/sem.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/sem.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -284,7 +298,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_s
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -298,7 +312,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_s
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -312,7 +326,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_s
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/critical_section.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/critical_section.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/critical_section.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -326,7 +340,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_s
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -340,7 +354,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_t
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/timeout_helper.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/timeout_helper.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -354,7 +368,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_t
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -368,7 +382,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/datetime.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/datetime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/datetime.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/datetime.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -382,7 +396,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_u
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/pheap.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/pheap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/pheap.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/pheap.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -396,7 +410,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_u
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/queue.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/queue.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/queue.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -410,7 +424,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_u
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -424,7 +438,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -438,7 +452,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -452,7 +466,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -466,7 +480,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -480,7 +494,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -494,7 +508,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -508,7 +522,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -522,7 +536,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -536,7 +550,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_flash/flash.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -550,7 +564,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -563,7 +577,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_divider/divider.S.o   -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -577,7 +591,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -591,7 +605,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -605,7 +619,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -619,7 +633,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -632,7 +646,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -645,7 +659,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o   -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
@@ -658,7 +672,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
@@ -672,7 +686,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
@@ -686,7 +700,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -699,7 +713,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
@@ -712,7 +726,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -725,7 +739,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
@@ -739,7 +753,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
@@ -753,7 +767,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -766,7 +780,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
@@ -780,7 +794,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -793,7 +807,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -807,7 +821,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -821,7 +835,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -835,7 +849,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -849,7 +863,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -862,7 +876,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building ASM object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -876,7 +890,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -890,7 +904,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -904,7 +918,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pi
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -918,7 +932,7 @@ CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/ha
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o -MF CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o.d -o CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o -c /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c
 
 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
@@ -935,6 +949,7 @@ blink_OBJECTS = \
 "CMakeFiles/blink.dir/src/lcd.c.o" \
 "CMakeFiles/blink.dir/src/sdcard.c.o" \
 "CMakeFiles/blink.dir/src/b_matrix.c.o" \
+"CMakeFiles/blink.dir/src/menu.c.o" \
 "CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" \
 "CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
 "CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c.o" \
@@ -1001,6 +1016,7 @@ blink.elf: CMakeFiles/blink.dir/src/main.c.o
 blink.elf: CMakeFiles/blink.dir/src/lcd.c.o
 blink.elf: CMakeFiles/blink.dir/src/sdcard.c.o
 blink.elf: CMakeFiles/blink.dir/src/b_matrix.c.o
+blink.elf: CMakeFiles/blink.dir/src/menu.c.o
 blink.elf: CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 blink.elf: CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 blink.elf: CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/pico_platform/platform.c.o
@@ -1063,7 +1079,7 @@ blink.elf: CMakeFiles/blink.dir/build.make
 blink.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 blink.elf: /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 blink.elf: CMakeFiles/blink.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Linking CXX executable blink.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/TotallyOrdinaryPC/Documents/trakk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Linking CXX executable blink.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blink.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/TotallyOrdinaryPC/Documents/trakk/build/blink.elf > blink.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/TotallyOrdinaryPC/Documents/trakk/build/blink.elf >> blink.dis

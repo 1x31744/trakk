@@ -1,5 +1,6 @@
-CMakeFiles/blink.dir/src/main.c.o: \
- /home/TotallyOrdinaryPC/Documents/trakk/src/main.c \
+CMakeFiles/blink.dir/src/menu.c.o: \
+ /home/TotallyOrdinaryPC/Documents/trakk/src/menu.c \
+ /home/TotallyOrdinaryPC/Documents/trakk/src/../include/menu.h \
  /usr/arm-none-eabi/include/stdio.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/arm-none-eabi/include/newlib.h \
  /usr/arm-none-eabi/include/_newlib_version.h \
@@ -16,16 +17,18 @@ CMakeFiles/blink.dir/src/main.c.o: \
  /usr/arm-none-eabi/include/machine/_types.h \
  /usr/arm-none-eabi/include/sys/lock.h \
  /usr/arm-none-eabi/include/sys/stdio.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_base_headers/include/pico.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
- /usr/lib/gcc/arm-none-eabi/15.1.0/include/stdbool.h \
- /usr/arm-none-eabi/include/assert.h \
  /usr/lib/gcc/arm-none-eabi/15.1.0/include/stdint.h \
  /usr/arm-none-eabi/include/stdint.h \
  /usr/arm-none-eabi/include/sys/_intsup.h \
  /usr/arm-none-eabi/include/sys/_stdint.h \
+ /usr/lib/gcc/arm-none-eabi/15.1.0/include/stdbool.h \
+ /home/TotallyOrdinaryPC/Documents/trakk/src/../include/lcd.h \
+ /home/TotallyOrdinaryPC/Documents/trakk/src/../include/config.h \
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_base_headers/include/pico.h \
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+ /usr/arm-none-eabi/include/assert.h \
  /home/TotallyOrdinaryPC/Documents/trakk/build/generated/pico_base/pico/version.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
  /home/TotallyOrdinaryPC/Documents/trakk/build/generated/pico_base/pico/config_autogen.h \
@@ -41,13 +44,20 @@ CMakeFiles/blink.dir/src/main.c.o: \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/include/pico/time.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
@@ -64,22 +74,6 @@ CMakeFiles/blink.dir/src/main.c.o: \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
- /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
- /home/TotallyOrdinaryPC/Documents/trakk/src/../include/lcd.h \
- /home/TotallyOrdinaryPC/Documents/trakk/src/../include/sdcard.h \
- /home/TotallyOrdinaryPC/Documents/trakk/src/../include/config.h \
- /home/TotallyOrdinaryPC/Documents/trakk/src/../include/b_matrix.h \
- /home/TotallyOrdinaryPC/Documents/trakk/src/../include/menu.h
+ /home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h

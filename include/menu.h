@@ -2,7 +2,8 @@
 #define MENU_H
 
 #include <stdio.h>
-#include '../include/lcd.h'
+#include <stdint.h>
+#include <stdbool.h>
 
 typedef enum {
     MENU_ACTION, 
@@ -19,8 +20,9 @@ typedef struct {
     MenuItemType type;
     uint8_t col;
     uint8_t row;
+    bool selected;
     union {
-        Menu *submenu
+        Menu *submenu;
         MenuAction action;
     };
 } menuItem;

@@ -110,6 +110,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/blink.dir/src/lcd.c.o.d"
   "CMakeFiles/blink.dir/src/main.c.o"
   "CMakeFiles/blink.dir/src/main.c.o.d"
+  "CMakeFiles/blink.dir/src/menu.c.o"
+  "CMakeFiles/blink.dir/src/menu.c.o.d"
   "CMakeFiles/blink.dir/src/sdcard.c.o"
   "CMakeFiles/blink.dir/src/sdcard.c.o.d"
   "blink.bin"

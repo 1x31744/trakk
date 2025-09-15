@@ -187,6 +187,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/TotallyOrdinaryPC/Documents/trakk/src/b_matrix.c" "CMakeFiles/blink.dir/src/b_matrix.c.o" "gcc" "CMakeFiles/blink.dir/src/b_matrix.c.o.d"
   "/home/TotallyOrdinaryPC/Documents/trakk/src/lcd.c" "CMakeFiles/blink.dir/src/lcd.c.o" "gcc" "CMakeFiles/blink.dir/src/lcd.c.o.d"
   "/home/TotallyOrdinaryPC/Documents/trakk/src/main.c" "CMakeFiles/blink.dir/src/main.c.o" "gcc" "CMakeFiles/blink.dir/src/main.c.o.d"
+  "/home/TotallyOrdinaryPC/Documents/trakk/src/menu.c" "CMakeFiles/blink.dir/src/menu.c.o" "gcc" "CMakeFiles/blink.dir/src/menu.c.o.d"
   "/home/TotallyOrdinaryPC/Documents/trakk/src/sdcard.c" "CMakeFiles/blink.dir/src/sdcard.c.o" "gcc" "CMakeFiles/blink.dir/src/sdcard.c.o.d"
   "/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   )

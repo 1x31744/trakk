@@ -4,6 +4,9 @@
 #include "hardware/spi.h"
 #include "pico/stdlib.h"
 
+
+
+
 static Menu *currentMenu = NULL;
 static int currentIndex = 0;
 
@@ -23,17 +26,17 @@ void menu_draw(void) {
 
 	for (uint8_t r = 0; r < 4; r++) {
 		lcd_set_cursor(0,r);
-		lcd_string("                    ")
+		lcd_string("                    ");
 	}
 
 	for (size_t i = 0; i < currentMenu->itemCount; i++) {
-		lcd_set_cursor(currentMenu->col, currentMenu->row);
+		lcd_set_cursor(currentMenu->items[i].col, currentMenu->items[i].row);
 		
-		if (currentMenu->selected) {
+		if (currentMenu->items[i].selected) {
 			// do some lcd selection stuff
 		}
 
-		lcd_string(currentMenu->label);
+		lcd_string(currentMenu->items[i].label);
 
 	}
 }

@@ -18,6 +18,7 @@ add_executable(${PROJECT_NAME}
     src/lcd.c
     src/sdcard.c
     src/b_matrix.c
+    src/menu.c
 )
 
 # Create map/bin/hex/uf2 files
