@@ -55,7 +55,7 @@ int main() {
     //lcd_string("or else...........");
 
     // Write a test block
-    const char *test_data = "Hello stinky daisy :p";
+    const char *test_data = "this text is written";
     if (sd_write_block(0, test_data) == 0) {
         printf("Block written successfully\n");
     } else {

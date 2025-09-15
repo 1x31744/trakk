@@ -2,6 +2,7 @@
 #define MENU_H
 
 #include <stdio.h>
+#include '../include/lcd.h'
 
 typedef enum {
     MENU_ACTION, 
@@ -16,6 +17,8 @@ typedef struct Menu Menu;
 typedef struct {
     const char *label;
     MenuItemType type;
+    uint8_t col;
+    uint8_t row;
     union {
         Menu *submenu; 
         MenuAction action;

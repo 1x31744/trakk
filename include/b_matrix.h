@@ -3,9 +3,10 @@
 
 #include <stdint.h>
 #include <stdbool.h>
+#include <stdio.h> 
 
 // Function prototypes
-void b_matrix_init();
+void matrix_init();
 void matrix_clear_columns();
 void matrix_set_column(int col);
 bool* matrix_read_rows();
