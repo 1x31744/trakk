@@ -11,4 +11,33 @@ static int currentIndex = 0;
 void menu_init(Menu *root) {
     currentMenu = root;
     currentIndex = 0;
+
+    lcd_init();
+    lcd_backlight(true);
+
+    menu_draw();
+}
+
+void menu_draw(void) {
+	if (!currentMenu) return;
+
+	for (uint8_t r = 0; r < 4; r++) {
+		lcd_set_cursor(0,r);
+		lcd_string("                    ")
+	}
+
+	for (size_t i = 0; i < currentMenu->itemCount; i++) {
+		lcd_set_cursor(currentMenu->col, currentMenu->row);
+		
+		if (currentMenu->selected) {
+			// do some lcd selection stuff
+		}
+
+		lcd_string(currentMenu->label);
+
+	}
+}
+
+void handle_input(int action) {
+	//recieve input from main
 }

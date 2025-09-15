@@ -20,7 +20,7 @@ typedef struct {
     uint8_t col;
     uint8_t row;
     union {
-        Menu *submenu; 
+        Menu *submenu
         MenuAction action;
     };
 } menuItem;

@@ -8,93 +8,96 @@
 #include "../include/sdcard.h"
 #include "../include/config.h"
 #include "../include/b_matrix.h"
+#include "../include/menu.h"
+
+
+Menu root = {
+	"Main menu",
+
+
+
+}
+
+void init() {
+	// Initialize LED
+	gpio_init(LED_PIN);
+	gpio_set_dir(LED_PIN, GPIO_OUT);
+
+	// Initialize serial & I2C
+	stdio_init_all();
+	i2c_init(I2C_PORT, 100 * 1000);
+	gpio_set_function(SDA_PIN, GPIO_FUNC_I2C);
+	gpio_set_function(SCL_PIN, GPIO_FUNC_I2C);
+	gpio_pull_up(SDA_PIN);
+	gpio_pull_up(SCL_PIN);
+	bi_decl(bi_2pins_with_func(SDA_PIN, SCL_PIN, GPIO_FUNC_I2C));
+
+	sleep_ms(2000);
+
+	// SD card init
+	sd_init(CS_PIN);
+
+}
 
 int main() {
+	menuItem rootItems[2]; = {
+		{.label="Add workout", .type=MENU_SUBMENU, .col=0, .row=0, .submenu=nullptr }
+		{.label="Settings", .type=MENU_SUBMENU, .col=0, .row=1, .submenu=nullptr }
+	}
 
-    // Initialize LED
-    gpio_init(LED_PIN);
-    gpio_set_dir(LED_PIN, GPIO_OUT);
+	Menu root = {
+		.title="Home",
+		.items=rootItems,
+		.itemCount=2,
+		.parent=nullptr
+	}
 
-    // Initialize serial & I2C
-    stdio_init_all();
-    i2c_init(I2C_PORT, 100 * 1000);
-    gpio_set_function(SDA_PIN, GPIO_FUNC_I2C);
-    gpio_set_function(SCL_PIN, GPIO_FUNC_I2C);
-    gpio_pull_up(SDA_PIN);
-    gpio_pull_up(SCL_PIN);
-    bi_decl(bi_2pins_with_func(SDA_PIN, SCL_PIN, GPIO_FUNC_I2C));
+	menu_init(root);
+	
 
-    sleep_ms(2000);
+	/*
+	// Write a test block
+	const char *test_data = "this text is written";
+	if (sd_write_block(0, test_data) == 0) {
+		printf("Block written successfully\n");
+	} else {
+		printf("Block write failed\n");
+	}
 
-    // SD card init
-    sd_init(CS_PIN);
+	// Read it back
+	char read_data[512];
+	if (sd_read_block(0, read_data) == 0) {
+		lcd_string(read_data);
+	} else {
+		printf("Block read failed\n");
+	}
+	*/
 
-    // Blink LED
-    gpio_put(LED_PIN, true);
-    sleep_ms(200);
-    gpio_put(LED_PIN, false);
-    sleep_ms(200);
+	absolute_time_t last_led_toggle = get_absolute_time();
+	bool led_state = false;
+	matrix_init();
 
-    // Initialize LCD
-    lcd_init();
+	while (true) {
+		bool rows[3][3] = {0};
+		matrix_scan(rows);
 
-    // Flash backlight
-    lcd_backlight(false);
-    sleep_ms(500);
-    lcd_backlight(true);
-    sleep_ms(500);
+		// Check all buttons
+		for (int r = 0; r < 3; r++) {
+			for (int c = 0; c < 3; c++) {
+				if (rows[r][c]) {
+					printf("Button pressed at row %d, column %d\n", r, c);
+				}
+			}
+		}
 
-    // Display text
-    lcd_set_cursor(0,0);
-    lcd_string("I love tetris :)");
-    lcd_set_cursor(0,1);
-    lcd_string("Tetris is the best!");
-    lcd_set_cursor(0,2);
-    lcd_string("Play it...");
-    lcd_set_cursor(0,3);
-    //lcd_string("or else...........");
+		// Toggle LED every 1000ms, non-blocking
+		if (absolute_time_diff_us(last_led_toggle, get_absolute_time()) > 1000000) {
+			led_state = !led_state;
+			gpio_put(LED_PIN, led_state);
+			last_led_toggle = get_absolute_time();
+		}
 
-    // Write a test block
-    const char *test_data = "this text is written";
-    if (sd_write_block(0, test_data) == 0) {
-        printf("Block written successfully\n");
-    } else {
-        printf("Block write failed\n");
-    }
-
-    // Read it back
-    char read_data[512];
-    if (sd_read_block(0, read_data) == 0) {
-        lcd_string(read_data);
-    } else {
-        printf("Block read failed\n");
-    }
-
-    absolute_time_t last_led_toggle = get_absolute_time();
-    bool led_state = false;
-    matrix_init();
-
-    while (true) {
-        bool rows[3][3] = {0};
-        matrix_scan(rows);
-
-        // Check all buttons
-        for (int r = 0; r < 3; r++) {
-            for (int c = 0; c < 3; c++) {
-                if (rows[r][c]) {
-                    printf("Button pressed at row %d, column %d\n", r, c);
-                }
-            }
-        }
-
-        // Toggle LED every 1000ms, non-blocking
-        if (absolute_time_diff_us(last_led_toggle, get_absolute_time()) > 1000000) {
-            led_state = !led_state;
-            gpio_put(LED_PIN, led_state);
-            last_led_toggle = get_absolute_time();
-        }
-
-        sleep_ms(5); // short delay to avoid 100% CPU
-    }
+		sleep_ms(5); // short delay to avoid 100% CPU
+	}
 
 }
