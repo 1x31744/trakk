@@ -1,15 +1,12 @@
 #ifndef MENU_H
 #define MENU_H
 
-#include <stdio.h>
-#include <stdint.h>
+#include "config.h"
 #include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
 
-typedef enum {
-    MENU_ACTION, 
-    MENU_SUBMENU,
-    MENU_INPUT
-} MenuItemType;
+typedef enum { MENU_ACTION, MENU_SUBMENU, MENU_INPUT } MenuItemType;
 
 typedef void (*MenuAction)(const char *name);
 
@@ -31,22 +28,20 @@ struct Menu {
     const char *title;
     menuItem *items;
     size_t itemCount;
-    Menu *parent; 
+    Menu *parent;
+    int selected_item;
 };
 
 // API
 void menu_init(Menu *root);
 void menu_draw(void);
-void menu_handle_input(int action);
-
+void menu_handle_input(bool currentMatrix[ROWS][COLUMNS]);
 
 // Action enums (from buttons)
-enum {
-    ACTION_NONE,
-    ACTION_UP,
-    ACTION_DOWN,
-    ACTION_ENTER,
-    ACTION_BACK
-};
+enum { ACTION_NONE, ACTION_UP, ACTION_DOWN, ACTION_ENTER, ACTION_BACK };
+
+typedef enum { NAVIGATION, TEXT_ENTRY } Mode;
+
+void text_actions(int row, int column);
 
 #endif

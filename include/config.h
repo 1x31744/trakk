@@ -1,9 +1,9 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#include "hardware/i2c.h"   // for i2c0, i2c1
-#include "hardware/spi.h"   // if you use spi0/spi1 in config
-#include "pico/stdlib.h"    // optional, for GPIO numbers
+#include "hardware/i2c.h" // for i2c0, i2c1
+#include "hardware/spi.h" // if you use spi0/spi1 in config
+#include "pico/stdlib.h"  // optional, for GPIO numbers
 
 // I2C setup
 #define I2C_PORT i2c0
@@ -12,8 +12,8 @@
 #define LCD_ADDR 0x27
 
 // LCD backpack mapping
-#define LCD_RS        0x01
-#define LCD_E         0x04
+#define LCD_RS 0x01
+#define LCD_E 0x04
 #define LCD_BACKLIGHT 0x08
 
 // SD card
@@ -26,6 +26,9 @@
 #define ROW_1 5
 #define ROW_2 6
 #define ROW_3 7
+
+#define ROWS 3
+#define COLUMNS 3
 
 // LED pin
 #define LED_PIN 17
