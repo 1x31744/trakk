@@ -17,7 +17,6 @@ typedef struct {
     MenuItemType type;
     uint8_t col;
     uint8_t row;
-    bool selected;
     union {
         Menu *submenu;
         MenuAction action;
