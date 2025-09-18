@@ -4,6 +4,7 @@
 #include "hardware/spi.h"
 #include "pico/stdlib.h"
 
+
 static Menu *currentMenu = NULL;
 static int currentIndex = 0;
 bool previous[ROWS][COLUMNS];
@@ -43,6 +44,27 @@ void nav_right() {}
 void (*navigation_actions[ROWS][COLUMNS])(void) = {{NULL, nav_up, NULL},
                                                    {nav_left, nav_ok, nav_right},
                                                    {NULL, nav_down, NULL}};
+
+TextButton textButtons[ROWS][COLUMNS] = 
+{{{"1abc", 0, 0}, {"2def", 0, 0}, {"3ghi", 0, 0}},
+{{"4jkl", 0, 0,}, {"5mno", 0, 0},{"6pqr", 0, 0}},
+{{"7stu", 0, 0}, {"8vwx", 0, 0}, {"9yz", 0, 0}}};
+
+void text_actions(int row, int column) {
+
+
+	if (absolute_time_diff_us(textButtons[row][columns].lastPressed, get_absolute_time()) < 1000) {
+		//get cursor x-1, and draw character there with the index of timesPressed (increase and wrap times pressed)
+		textButtons[row][column].timesPressed = (textButtons[row][column].timesPressed + 1) % 3;
+	} else {
+		//draw character normally
+		lcd_draw(textButtons[row][column].text[textButtons[row][column].timesPressed]);
+		textButtons[row][column].timesPressed += 1;
+	}
+
+	textButtons[row][colums].lastPressed = get_absolute_time();
+
+}
 
 // Initialize menu system with root menu
 void menu_init(Menu * root) {
@@ -92,4 +114,3 @@ void menu_handle_input(bool currentMatrix[ROWS][COLUMNS]) {
         }
     }
 }
-

@@ -181,6 +181,12 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/blink.dir/src/menu.c.o
  .data          0x00000000        0x0 CMakeFiles/blink.dir/src/menu.c.o
  .bss           0x00000000        0x0 CMakeFiles/blink.dir/src/menu.c.o
+ .text.text_actions
+                0x00000000        0x4 CMakeFiles/blink.dir/src/menu.c.o
+ .rodata.str1.4
+                0x00000000       0x44 CMakeFiles/blink.dir/src/menu.c.o
+ .data.textButtons
+                0x00000000       0x90 CMakeFiles/blink.dir/src/menu.c.o
  .text          0x00000000        0x0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
  .data          0x00000000        0x0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
  .bss           0x00000000        0x0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
@@ -3954,103 +3960,103 @@ LOAD linker stubs
  .comment       0x00000046       0x24 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
  .comment       0x00000046       0x24 /usr/lib/gcc/arm-none-eabi/15.1.0/thumb/v6-m/nofp/crtend.o
 
-.debug_info     0x00000000    0x225c9
+.debug_info     0x00000000    0x22677
  .debug_info    0x00000000     0x1188 CMakeFiles/blink.dir/src/main.c.o
  .debug_info    0x00001188     0x10f6 CMakeFiles/blink.dir/src/lcd.c.o
  .debug_info    0x0000227e     0x194e CMakeFiles/blink.dir/src/sdcard.c.o
  .debug_info    0x00003bcc     0x10df CMakeFiles/blink.dir/src/b_matrix.c.o
- .debug_info    0x00004cab      0x732 CMakeFiles/blink.dir/src/menu.c.o
- .debug_info    0x000053dd     0x2445 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_info    0x00007822      0x1bf CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_info    0x000079e1      0x988 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_info    0x00008369      0x45f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_info    0x000087c8      0x245 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_info    0x00008a0d     0x21be CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_info    0x0000abcb      0x15f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_info    0x0000ad2a     0x2786 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_info    0x0000d4b0     0x4f3f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
- .debug_info    0x000123ef     0x2aa2 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_info    0x00014e91     0x299a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_info    0x0001782b      0x4f0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_info    0x00017d1b      0x248 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_info    0x00017f63      0x65a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_info    0x000185bd      0x1d0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_info    0x0001878d      0x206 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_info    0x00018993      0x7ea CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_info    0x0001917d      0x781 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_info    0x000198fe       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_info    0x00019921       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_info    0x00019944       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_info    0x00019967      0x27e CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_info    0x00019be5       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_info    0x00019c08       0x24 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
- .debug_info    0x00019c2c       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_info    0x00019c4f      0x27e CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_info    0x00019ecd       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
- .debug_info    0x00019ef0       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_info    0x00019f13      0x2b8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_info    0x0001a1cb     0x2307 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_info    0x0001c4d2       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_info    0x0001c4f5      0xba3 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_info    0x0001d098     0x1b6a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_info    0x0001ec02     0x1cb6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
- .debug_info    0x000208b8     0x1281 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_info    0x00021b39       0x3c /usr/lib/gcc/arm-none-eabi/15.1.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_info    0x00021b75      0x11e /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
- .debug_info    0x00021c93       0xf7 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
- .debug_info    0x00021d8a      0x218 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
- .debug_info    0x00021fa2       0xeb /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
- .debug_info    0x0002208d      0x25f /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
- .debug_info    0x000222ec      0x2dd /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+ .debug_info    0x00004cab      0x7e0 CMakeFiles/blink.dir/src/menu.c.o
+ .debug_info    0x0000548b     0x2445 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_info    0x000078d0      0x1bf CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_info    0x00007a8f      0x988 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_info    0x00008417      0x45f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_info    0x00008876      0x245 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_info    0x00008abb     0x21be CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_info    0x0000ac79      0x15f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_info    0x0000add8     0x2786 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_info    0x0000d55e     0x4f3f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
+ .debug_info    0x0001249d     0x2aa2 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_info    0x00014f3f     0x299a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_info    0x000178d9      0x4f0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_info    0x00017dc9      0x248 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_info    0x00018011      0x65a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_info    0x0001866b      0x1d0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_info    0x0001883b      0x206 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_info    0x00018a41      0x7ea CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_info    0x0001922b      0x781 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_info    0x000199ac       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_info    0x000199cf       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_info    0x000199f2       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_info    0x00019a15      0x27e CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_info    0x00019c93       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_info    0x00019cb6       0x24 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+ .debug_info    0x00019cda       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_info    0x00019cfd      0x27e CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_info    0x00019f7b       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+ .debug_info    0x00019f9e       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_info    0x00019fc1      0x2b8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_info    0x0001a279     0x2307 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_info    0x0001c580       0x23 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_info    0x0001c5a3      0xba3 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_info    0x0001d146     0x1b6a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_info    0x0001ecb0     0x1cb6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+ .debug_info    0x00020966     0x1281 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_info    0x00021be7       0x3c /usr/lib/gcc/arm-none-eabi/15.1.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00021c23      0x11e /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+ .debug_info    0x00021d41       0xf7 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+ .debug_info    0x00021e38      0x218 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+ .debug_info    0x00022050       0xeb /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
+ .debug_info    0x0002213b      0x25f /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+ .debug_info    0x0002239a      0x2dd /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
-.debug_abbrev   0x00000000     0x6652
+.debug_abbrev   0x00000000     0x6678
  .debug_abbrev  0x00000000      0x3eb CMakeFiles/blink.dir/src/main.c.o
  .debug_abbrev  0x000003eb      0x284 CMakeFiles/blink.dir/src/lcd.c.o
  .debug_abbrev  0x0000066f      0x364 CMakeFiles/blink.dir/src/sdcard.c.o
  .debug_abbrev  0x000009d3      0x319 CMakeFiles/blink.dir/src/b_matrix.c.o
- .debug_abbrev  0x00000cec      0x2f3 CMakeFiles/blink.dir/src/menu.c.o
- .debug_abbrev  0x00000fdf      0x4fb CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_abbrev  0x000014da      0x12b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_abbrev  0x00001605      0x320 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_abbrev  0x00001925      0x20f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_abbrev  0x00001b34      0x1bb CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_abbrev  0x00001cef      0x629 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_abbrev  0x00002318       0xee CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_abbrev  0x00002406      0x47b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_abbrev  0x00002881      0x659 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
- .debug_abbrev  0x00002eda      0x4f4 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_abbrev  0x000033ce      0x4fa CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_abbrev  0x000038c8      0x1d6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_abbrev  0x00003a9e      0x145 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_abbrev  0x00003be3      0x1bc CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_abbrev  0x00003d9f      0x11d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_abbrev  0x00003ebc      0x170 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_abbrev  0x0000402c      0x26b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_abbrev  0x00004297      0x2af CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_abbrev  0x00004546       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_abbrev  0x00004558       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_abbrev  0x0000456a       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_abbrev  0x0000457c      0x17a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_abbrev  0x000046f6       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_abbrev  0x00004708       0x14 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
- .debug_abbrev  0x0000471c       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_abbrev  0x0000472e      0x173 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_abbrev  0x000048a1       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
- .debug_abbrev  0x000048b3       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_abbrev  0x000048c5       0xb8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_abbrev  0x0000497d      0x4ef CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_abbrev  0x00004e6c       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_abbrev  0x00004e7e      0x346 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_abbrev  0x000051c4      0x5e6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_abbrev  0x000057aa      0x49c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
- .debug_abbrev  0x00005c46      0x331 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_abbrev  0x00005f77       0x26 /usr/lib/gcc/arm-none-eabi/15.1.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_abbrev  0x00005f9d       0xbe /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
- .debug_abbrev  0x0000605b       0xc9 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
- .debug_abbrev  0x00006124      0x115 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
- .debug_abbrev  0x00006239       0x90 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
- .debug_abbrev  0x000062c9      0x189 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
- .debug_abbrev  0x00006452      0x200 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+ .debug_abbrev  0x00000cec      0x319 CMakeFiles/blink.dir/src/menu.c.o
+ .debug_abbrev  0x00001005      0x4fb CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_abbrev  0x00001500      0x12b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_abbrev  0x0000162b      0x320 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_abbrev  0x0000194b      0x20f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_abbrev  0x00001b5a      0x1bb CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_abbrev  0x00001d15      0x629 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_abbrev  0x0000233e       0xee CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_abbrev  0x0000242c      0x47b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_abbrev  0x000028a7      0x659 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
+ .debug_abbrev  0x00002f00      0x4f4 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_abbrev  0x000033f4      0x4fa CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_abbrev  0x000038ee      0x1d6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_abbrev  0x00003ac4      0x145 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_abbrev  0x00003c09      0x1bc CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_abbrev  0x00003dc5      0x11d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_abbrev  0x00003ee2      0x170 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_abbrev  0x00004052      0x26b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_abbrev  0x000042bd      0x2af CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_abbrev  0x0000456c       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_abbrev  0x0000457e       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_abbrev  0x00004590       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_abbrev  0x000045a2      0x17a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_abbrev  0x0000471c       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_abbrev  0x0000472e       0x14 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+ .debug_abbrev  0x00004742       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_abbrev  0x00004754      0x173 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_abbrev  0x000048c7       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+ .debug_abbrev  0x000048d9       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_abbrev  0x000048eb       0xb8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_abbrev  0x000049a3      0x4ef CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_abbrev  0x00004e92       0x12 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_abbrev  0x00004ea4      0x346 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_abbrev  0x000051ea      0x5e6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_abbrev  0x000057d0      0x49c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+ .debug_abbrev  0x00005c6c      0x331 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_abbrev  0x00005f9d       0x26 /usr/lib/gcc/arm-none-eabi/15.1.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x00005fc3       0xbe /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+ .debug_abbrev  0x00006081       0xc9 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+ .debug_abbrev  0x0000614a      0x115 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+ .debug_abbrev  0x0000625f       0x90 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
+ .debug_abbrev  0x000062ef      0x189 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+ .debug_abbrev  0x00006478      0x200 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
 .debug_loclists
                 0x00000000    0x12a36
@@ -4125,7 +4131,7 @@ LOAD linker stubs
  .debug_loclists
                 0x000128e0      0x156 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
-.debug_aranges  0x00000000     0x11c8
+.debug_aranges  0x00000000     0x11d0
  .debug_aranges
                 0x00000000       0x28 CMakeFiles/blink.dir/src/main.c.o
  .debug_aranges
@@ -4135,94 +4141,94 @@ LOAD linker stubs
  .debug_aranges
                 0x000000b0       0x40 CMakeFiles/blink.dir/src/b_matrix.c.o
  .debug_aranges
-                0x000000f0       0x60 CMakeFiles/blink.dir/src/menu.c.o
+                0x000000f0       0x68 CMakeFiles/blink.dir/src/menu.c.o
  .debug_aranges
-                0x00000150      0x118 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+                0x00000158      0x118 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
  .debug_aranges
-                0x00000268       0x28 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+                0x00000270       0x28 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
  .debug_aranges
-                0x00000290       0x48 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
+                0x00000298       0x48 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
  .debug_aranges
-                0x000002d8       0x48 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+                0x000002e0       0x48 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
  .debug_aranges
-                0x00000320       0x28 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+                0x00000328       0x28 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
  .debug_aranges
-                0x00000348       0xb8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x00000350       0xb8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
  .debug_aranges
-                0x00000400       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
+                0x00000408       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
  .debug_aranges
-                0x00000420       0x98 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
+                0x00000428       0x98 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
  .debug_aranges
-                0x000004b8       0xe0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
+                0x000004c0       0xe0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
  .debug_aranges
-                0x00000598       0xf0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x000005a0       0xf0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
  .debug_aranges
-                0x00000688       0x90 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+                0x00000690       0x90 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
  .debug_aranges
-                0x00000718       0x28 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+                0x00000720       0x28 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
  .debug_aranges
-                0x00000740       0x30 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+                0x00000748       0x30 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
  .debug_aranges
-                0x00000770       0x40 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+                0x00000778       0x40 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
  .debug_aranges
-                0x000007b0       0x30 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+                0x000007b8       0x30 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
  .debug_aranges
-                0x000007e0       0x38 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x000007e8       0x38 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
  .debug_aranges
-                0x00000818       0x48 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x00000820       0x48 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
  .debug_aranges
-                0x00000860       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+                0x00000868       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
  .debug_aranges
-                0x00000880       0x60 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+                0x00000888       0x60 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
  .debug_aranges
-                0x000008e0       0x40 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+                0x000008e8       0x40 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
  .debug_aranges
-                0x00000920      0x150 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x00000928      0x150 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
  .debug_aranges
-                0x00000a70       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+                0x00000a78       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
  .debug_aranges
-                0x00000a90       0xc8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x00000a98       0xc8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
  .debug_aranges
-                0x00000b58       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+                0x00000b60       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
  .debug_aranges
-                0x00000b78      0x138 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+                0x00000b80      0x138 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
  .debug_aranges
-                0x00000cb0       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+                0x00000cb8       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
  .debug_aranges
-                0x00000cd0       0x50 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+                0x00000cd8       0x50 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
  .debug_aranges
-                0x00000d20       0x38 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+                0x00000d28       0x38 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
  .debug_aranges
-                0x00000d58       0x18 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x00000d60       0x18 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .debug_aranges
-                0x00000d70       0x90 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x00000d78       0x90 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .debug_aranges
-                0x00000e00       0x28 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+                0x00000e08       0x28 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
  .debug_aranges
-                0x00000e28       0xa8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x00000e30       0xa8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
  .debug_aranges
-                0x00000ed0       0xc8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x00000ed8       0xc8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .debug_aranges
-                0x00000f98       0x98 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+                0x00000fa0       0x98 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
  .debug_aranges
-                0x00001030       0x68 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+                0x00001038       0x68 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
  .debug_aranges
-                0x00001098       0x20 /usr/lib/gcc/arm-none-eabi/15.1.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x000010a0       0x20 /usr/lib/gcc/arm-none-eabi/15.1.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .debug_aranges
-                0x000010b8       0x20 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+                0x000010c0       0x20 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
  .debug_aranges
-                0x000010d8       0x20 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+                0x000010e0       0x20 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
  .debug_aranges
-                0x000010f8       0x68 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+                0x00001100       0x68 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
  .debug_aranges
-                0x00001160       0x20 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
+                0x00001168       0x20 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
  .debug_aranges
-                0x00001180       0x20 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+                0x00001188       0x20 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
  .debug_aranges
-                0x000011a0       0x28 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+                0x000011a8       0x28 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
 .debug_rnglists
-                0x00000000     0x34d6
+                0x00000000     0x34dc
  .debug_rnglists
                 0x00000000       0xa1 CMakeFiles/blink.dir/src/main.c.o
  .debug_rnglists
@@ -4232,222 +4238,222 @@ LOAD linker stubs
  .debug_rnglists
                 0x000002f7      0x2bc CMakeFiles/blink.dir/src/b_matrix.c.o
  .debug_rnglists
-                0x000005b3       0xa2 CMakeFiles/blink.dir/src/menu.c.o
+                0x000005b3       0xa8 CMakeFiles/blink.dir/src/menu.c.o
  .debug_rnglists
-                0x00000655      0x56d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+                0x0000065b      0x56d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
  .debug_rnglists
-                0x00000bc2       0x19 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+                0x00000bc8       0x19 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
  .debug_rnglists
-                0x00000bdb       0xb6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
+                0x00000be1       0xb6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
  .debug_rnglists
-                0x00000c91       0x58 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+                0x00000c97       0x58 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
  .debug_rnglists
-                0x00000ce9       0x3d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+                0x00000cef       0x3d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
  .debug_rnglists
-                0x00000d26      0x362 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x00000d2c      0x362 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
  .debug_rnglists
-                0x00001088       0x1f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
+                0x0000108e       0x1f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
  .debug_rnglists
-                0x000010a7      0x322 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
+                0x000010ad      0x322 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
  .debug_rnglists
-                0x000013c9      0x7cd CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
+                0x000013cf      0x7cd CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
  .debug_rnglists
-                0x00001b96      0x2b6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x00001b9c      0x2b6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
  .debug_rnglists
-                0x00001e4c      0x5e4 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+                0x00001e52      0x5e4 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
  .debug_rnglists
-                0x00002430       0x41 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+                0x00002436       0x41 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
  .debug_rnglists
-                0x00002471       0x2b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+                0x00002477       0x2b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
  .debug_rnglists
-                0x0000249c      0x112 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+                0x000024a2      0x112 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
  .debug_rnglists
-                0x000025ae       0x1f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+                0x000025b4       0x1f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
  .debug_rnglists
-                0x000025cd       0x6d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x000025d3       0x6d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
  .debug_rnglists
-                0x0000263a       0x4a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x00002640       0x4a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
  .debug_rnglists
-                0x00002684       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+                0x0000268a       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
  .debug_rnglists
-                0x000026a4       0x43 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+                0x000026aa       0x43 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
  .debug_rnglists
-                0x000026e7       0x2c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+                0x000026ed       0x2c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
  .debug_rnglists
-                0x00002713       0xf9 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x00002719       0xf9 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
  .debug_rnglists
-                0x0000280c       0x14 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+                0x00002812       0x14 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
  .debug_rnglists
-                0x00002820       0x99 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x00002826       0x99 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
  .debug_rnglists
-                0x000028b9       0xe5 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+                0x000028bf       0xe5 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
  .debug_rnglists
-                0x0000299e       0x13 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+                0x000029a4       0x13 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
  .debug_rnglists
-                0x000029b1       0x38 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+                0x000029b7       0x38 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
  .debug_rnglists
-                0x000029e9       0x25 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+                0x000029ef       0x25 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
  .debug_rnglists
-                0x00002a0e      0x2c6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x00002a14      0x2c6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .debug_rnglists
-                0x00002cd4       0x1b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+                0x00002cda       0x1b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
  .debug_rnglists
-                0x00002cef       0x85 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x00002cf5       0x85 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
  .debug_rnglists
-                0x00002d74      0x2a5 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x00002d7a      0x2a5 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .debug_rnglists
-                0x00003019      0x174 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+                0x0000301f      0x174 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
  .debug_rnglists
-                0x0000318d      0x273 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+                0x00003193      0x273 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
  .debug_rnglists
-                0x00003400       0x13 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+                0x00003406       0x13 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
  .debug_rnglists
-                0x00003413       0x13 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+                0x00003419       0x13 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
  .debug_rnglists
-                0x00003426       0x49 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+                0x0000342c       0x49 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
  .debug_rnglists
-                0x0000346f       0x13 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
+                0x00003475       0x13 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
  .debug_rnglists
-                0x00003482       0x14 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+                0x00003488       0x14 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
  .debug_rnglists
-                0x00003496       0x40 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+                0x0000349c       0x40 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
-.debug_line     0x00000000    0x1ad10
+.debug_line     0x00000000    0x1ad86
  .debug_line    0x00000000      0x87e CMakeFiles/blink.dir/src/main.c.o
  .debug_line    0x0000087e      0x6e1 CMakeFiles/blink.dir/src/lcd.c.o
  .debug_line    0x00000f5f      0xc0b CMakeFiles/blink.dir/src/sdcard.c.o
  .debug_line    0x00001b6a      0xa40 CMakeFiles/blink.dir/src/b_matrix.c.o
- .debug_line    0x000025aa      0x675 CMakeFiles/blink.dir/src/menu.c.o
- .debug_line    0x00002c1f     0x1b70 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_line    0x0000478f      0x22a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_line    0x000049b9      0x8f0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_line    0x000052a9      0x4aa CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_line    0x00005753      0x38a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_line    0x00005add     0x17a6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_line    0x00007283      0x2b5 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_line    0x00007538     0x1bb3 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_line    0x000090eb     0x3526 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
- .debug_line    0x0000c611     0x1d86 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_line    0x0000e397     0x226d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_line    0x00010604      0x4df CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_line    0x00010ae3      0x30c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_line    0x00010def      0x41a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_line    0x00011209      0x337 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_line    0x00011540      0x2fd CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_line    0x0001183d      0x6eb CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_line    0x00011f28      0x57b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_line    0x000124a3      0x108 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_line    0x000125ab      0x2a9 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_line    0x00012854      0x452 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_line    0x00012ca6      0x444 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_line    0x000130ea      0x66d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_line    0x00013757       0x61 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
- .debug_line    0x000137b8      0x3d2 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_line    0x00013b8a      0x352 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_line    0x00013edc      0x195 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
- .debug_line    0x00014071       0x94 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_line    0x00014105      0x1bd CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_line    0x000142c2     0x1b7d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_line    0x00015e3f       0xa2 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_line    0x00015ee1      0x892 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_line    0x00016773     0x13f1 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_line    0x00017b64     0x1237 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
- .debug_line    0x00018d9b     0x155a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_line    0x0001a2f5       0x4a /usr/lib/gcc/arm-none-eabi/15.1.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x0001a33f       0xf1 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
- .debug_line    0x0001a430       0xd1 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
- .debug_line    0x0001a501      0x187 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
- .debug_line    0x0001a688      0x1d5 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
- .debug_line    0x0001a85d      0x1a4 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
- .debug_line    0x0001aa01      0x30f /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+ .debug_line    0x000025aa      0x6eb CMakeFiles/blink.dir/src/menu.c.o
+ .debug_line    0x00002c95     0x1b70 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_line    0x00004805      0x22a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_line    0x00004a2f      0x8f0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_line    0x0000531f      0x4aa CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_line    0x000057c9      0x38a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_line    0x00005b53     0x17a6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_line    0x000072f9      0x2b5 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_line    0x000075ae     0x1bb3 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_line    0x00009161     0x3526 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
+ .debug_line    0x0000c687     0x1d86 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_line    0x0000e40d     0x226d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_line    0x0001067a      0x4df CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_line    0x00010b59      0x30c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_line    0x00010e65      0x41a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_line    0x0001127f      0x337 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_line    0x000115b6      0x2fd CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_line    0x000118b3      0x6eb CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_line    0x00011f9e      0x57b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_line    0x00012519      0x108 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_line    0x00012621      0x2a9 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_line    0x000128ca      0x452 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_line    0x00012d1c      0x444 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_line    0x00013160      0x66d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_line    0x000137cd       0x61 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+ .debug_line    0x0001382e      0x3d2 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_line    0x00013c00      0x352 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_line    0x00013f52      0x195 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+ .debug_line    0x000140e7       0x94 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_line    0x0001417b      0x1bd CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_line    0x00014338     0x1b7d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_line    0x00015eb5       0xa2 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_line    0x00015f57      0x892 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_line    0x000167e9     0x13f1 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_line    0x00017bda     0x1237 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+ .debug_line    0x00018e11     0x155a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_line    0x0001a36b       0x4a /usr/lib/gcc/arm-none-eabi/15.1.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0001a3b5       0xf1 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+ .debug_line    0x0001a4a6       0xd1 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+ .debug_line    0x0001a577      0x187 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+ .debug_line    0x0001a6fe      0x1d5 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
+ .debug_line    0x0001a8d3      0x1a4 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+ .debug_line    0x0001aa77      0x30f /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
-.debug_str      0x00000000     0x561d
- .debug_str     0x00000000     0x561d CMakeFiles/blink.dir/src/main.c.o
+.debug_str      0x00000000     0x565b
+ .debug_str     0x00000000     0x565b CMakeFiles/blink.dir/src/main.c.o
                                 0x975 (size before relaxing)
- .debug_str     0x0000561d      0x466 CMakeFiles/blink.dir/src/lcd.c.o
- .debug_str     0x0000561d      0x9c0 CMakeFiles/blink.dir/src/sdcard.c.o
- .debug_str     0x0000561d      0x47c CMakeFiles/blink.dir/src/b_matrix.c.o
- .debug_str     0x0000561d      0x747 CMakeFiles/blink.dir/src/menu.c.o
- .debug_str     0x0000561d      0xcc8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_str     0x0000561d      0x200 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_str     0x0000561d      0x383 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_str     0x0000561d      0x32c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_str     0x0000561d      0x23f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_str     0x0000561d      0xabb CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_str     0x0000561d      0x20b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_str     0x0000561d      0x7e6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_str     0x0000561d     0x11e2 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
- .debug_str     0x0000561d      0xa2e CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_str     0x0000561d      0xa11 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_str     0x0000561d      0x45e CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_str     0x0000561d      0x28d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_str     0x0000561d      0x352 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_str     0x0000561d      0x242 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_str     0x0000561d      0x292 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_str     0x0000561d      0x7c5 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_str     0x0000561d      0x49a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_str     0x0000561d       0x91 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_str     0x0000561d       0x94 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_str     0x0000561d       0x96 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_str     0x0000561d      0x2bb CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_str     0x0000561d       0x9c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_str     0x0000561d       0x9a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
- .debug_str     0x0000561d       0x94 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_str     0x0000561d      0x2a0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_str     0x0000561d       0x9a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
- .debug_str     0x0000561d       0x91 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_str     0x0000561d      0x401 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_str     0x0000561d      0x4e4 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_str     0x0000561d       0x85 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_str     0x0000561d      0x77b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_str     0x0000561d      0xb02 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_str     0x0000561d     0x1043 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
- .debug_str     0x0000561d      0x754 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_str     0x0000561d       0xee /usr/lib/gcc/arm-none-eabi/15.1.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_str     0x0000561d      0x217 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
- .debug_str     0x0000561d      0x211 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
- .debug_str     0x0000561d      0x371 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
- .debug_str     0x0000561d      0x1f7 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
- .debug_str     0x0000561d      0x2ee /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
- .debug_str     0x0000561d      0x317 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+ .debug_str     0x0000565b      0x466 CMakeFiles/blink.dir/src/lcd.c.o
+ .debug_str     0x0000565b      0x9c0 CMakeFiles/blink.dir/src/sdcard.c.o
+ .debug_str     0x0000565b      0x47c CMakeFiles/blink.dir/src/b_matrix.c.o
+ .debug_str     0x0000565b      0x7b5 CMakeFiles/blink.dir/src/menu.c.o
+ .debug_str     0x0000565b      0xcc8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_str     0x0000565b      0x200 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_str     0x0000565b      0x383 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_str     0x0000565b      0x32c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_str     0x0000565b      0x23f CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_str     0x0000565b      0xabb CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_str     0x0000565b      0x20b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_str     0x0000565b      0x7e6 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_str     0x0000565b     0x11e2 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
+ .debug_str     0x0000565b      0xa2e CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_str     0x0000565b      0xa11 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_str     0x0000565b      0x45e CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_str     0x0000565b      0x28d CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_str     0x0000565b      0x352 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_str     0x0000565b      0x242 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_str     0x0000565b      0x292 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_str     0x0000565b      0x7c5 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_str     0x0000565b      0x49a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_str     0x0000565b       0x91 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_str     0x0000565b       0x94 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_str     0x0000565b       0x96 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_str     0x0000565b      0x2bb CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_str     0x0000565b       0x9c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_str     0x0000565b       0x9a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+ .debug_str     0x0000565b       0x94 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_str     0x0000565b      0x2a0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_str     0x0000565b       0x9a CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+ .debug_str     0x0000565b       0x91 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_str     0x0000565b      0x401 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_str     0x0000565b      0x4e4 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_str     0x0000565b       0x85 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_str     0x0000565b      0x77b CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_str     0x0000565b      0xb02 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_str     0x0000565b     0x1043 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+ .debug_str     0x0000565b      0x754 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_str     0x0000565b       0xee /usr/lib/gcc/arm-none-eabi/15.1.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_str     0x0000565b      0x217 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+ .debug_str     0x0000565b      0x211 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+ .debug_str     0x0000565b      0x371 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+ .debug_str     0x0000565b      0x1f7 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
+ .debug_str     0x0000565b      0x2ee /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+ .debug_str     0x0000565b      0x317 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
-.debug_frame    0x00000000     0x2180
+.debug_frame    0x00000000     0x2190
  .debug_frame   0x00000000       0x58 CMakeFiles/blink.dir/src/main.c.o
  .debug_frame   0x00000058       0xdc CMakeFiles/blink.dir/src/lcd.c.o
  .debug_frame   0x00000134       0xb8 CMakeFiles/blink.dir/src/sdcard.c.o
  .debug_frame   0x000001ec       0x88 CMakeFiles/blink.dir/src/b_matrix.c.o
- .debug_frame   0x00000274       0xe4 CMakeFiles/blink.dir/src/menu.c.o
- .debug_frame   0x00000358      0x308 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_frame   0x00000660       0x44 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_frame   0x000006a4       0x9c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_frame   0x00000740       0xa4 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_frame   0x000007e4       0x30 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_frame   0x00000814      0x1c8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_frame   0x000009dc       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_frame   0x000009fc      0x1dc CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_frame   0x00000bd8      0x2e0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
- .debug_frame   0x00000eb8      0x2b8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_frame   0x00001170      0x1f4 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_frame   0x00001364       0x44 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_frame   0x000013a8       0x40 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_frame   0x000013e8       0xa0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_frame   0x00001488       0x40 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_frame   0x000014c8       0x70 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_frame   0x00001538       0x84 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_frame   0x000015bc       0x2c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_frame   0x000015e8       0x2c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_frame   0x00001614       0x28 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_frame   0x0000163c      0x1e4 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_frame   0x00001820      0x188 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_frame   0x000019a8      0x298 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_frame   0x00001c40      0x234 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
- .debug_frame   0x00001e74      0x154 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
- .debug_frame   0x00001fc8       0x28 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
- .debug_frame   0x00001ff0       0x2c /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
- .debug_frame   0x0000201c       0xb0 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
- .debug_frame   0x000020cc       0x28 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
- .debug_frame   0x000020f4       0x38 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
- .debug_frame   0x0000212c       0x54 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+ .debug_frame   0x00000274       0xf4 CMakeFiles/blink.dir/src/menu.c.o
+ .debug_frame   0x00000368      0x308 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_frame   0x00000670       0x44 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_frame   0x000006b4       0x9c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_frame   0x00000750       0xa4 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_frame   0x000007f4       0x30 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_frame   0x00000824      0x1c8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_frame   0x000009ec       0x20 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_frame   0x00000a0c      0x1dc CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_frame   0x00000be8      0x2e0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/common/pico_time/time.c.o
+ .debug_frame   0x00000ec8      0x2b8 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_frame   0x00001180      0x1f4 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_frame   0x00001374       0x44 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_frame   0x000013b8       0x40 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_frame   0x000013f8       0xa0 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_frame   0x00001498       0x40 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_frame   0x000014d8       0x70 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_frame   0x00001548       0x84 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_frame   0x000015cc       0x2c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_frame   0x000015f8       0x2c CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_frame   0x00001624       0x28 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_frame   0x0000164c      0x1e4 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_frame   0x00001830      0x188 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_frame   0x000019b8      0x298 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_frame   0x00001c50      0x234 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+ .debug_frame   0x00001e84      0x154 CMakeFiles/blink.dir/home/TotallyOrdinaryPC/Documents/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+ .debug_frame   0x00001fd8       0x28 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+ .debug_frame   0x00002000       0x2c /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+ .debug_frame   0x0000202c       0xb0 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-lock.o)
+ .debug_frame   0x000020dc       0x28 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
+ .debug_frame   0x00002104       0x38 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+ .debug_frame   0x0000213c       0x54 /usr/lib/gcc/arm-none-eabi/15.1.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
 .debug_line_str
                 0x00000000      0x394

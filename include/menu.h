@@ -41,6 +41,12 @@ enum { ACTION_NONE, ACTION_UP, ACTION_DOWN, ACTION_ENTER, ACTION_BACK };
 
 typedef enum { NAVIGATION, TEXT_ENTRY } Mode;
 
+typedef struct {
+	const char *text;
+	int timesPressed;
+	absolute_time_t lastPressed;
+} TextButton;
+
 void text_actions(int row, int column);
 
 #endif

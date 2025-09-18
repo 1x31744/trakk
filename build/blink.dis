@@ -35,23 +35,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  15 .comment      00000046  00000000  00000000  000062dc  2**0
                   CONTENTS, READONLY
- 16 .debug_info   000225c9  00000000  00000000  00006322  2**0
+ 16 .debug_info   00022677  00000000  00000000  00006322  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_abbrev 00006652  00000000  00000000  000288eb  2**0
+ 17 .debug_abbrev 00006678  00000000  00000000  00028999  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_loclists 00012a36  00000000  00000000  0002ef3d  2**0
+ 18 .debug_loclists 00012a36  00000000  00000000  0002f011  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_aranges 000011c8  00000000  00000000  00041978  2**3
+ 19 .debug_aranges 000011d0  00000000  00000000  00041a48  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_rnglists 000034d6  00000000  00000000  00042b40  2**0
+ 20 .debug_rnglists 000034dc  00000000  00000000  00042c18  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line   0001ad10  00000000  00000000  00046016  2**0
+ 21 .debug_line   0001ad86  00000000  00000000  000460f4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_str    0000561d  00000000  00000000  00060d26  2**0
+ 22 .debug_str    0000565b  00000000  00000000  00060e7a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_frame  00002180  00000000  00000000  00066344  2**2
+ 23 .debug_frame  00002190  00000000  00000000  000664d8  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_line_str 00000394  00000000  00000000  000684c4  2**0
+ 24 .debug_line_str 00000394  00000000  00000000  00068668  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /home/TotallyOrdinaryPC/Documents/trakk/build/blink.elf:     file format elf32-littlearm
@@ -572,7 +572,7 @@ Disassembly of section .text:
 10000504:	10004cc0 	.word	0x10004cc0
 10000508:	10004cc8 	.word	0x10004cc8
 1000050c:	000f4240 	.word	0x000f4240
-10000510:	000493e0 	.word	0x000493e0
+10000510:	000aae60 	.word	0x000aae60
 
 10000514 <lcd_backlight>:
 10000514:	220f      	movs	r2, #15
