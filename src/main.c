@@ -61,6 +61,7 @@ int main() {
     */
 
     absolute_time_t last_led_toggle = get_absolute_time();
+	absolute_time_t last_draw = get_absolute_time();
     bool led_state = false;
     matrix_init();
 
@@ -77,6 +78,11 @@ int main() {
                 }
             }
         }
+
+		if (absolute_time_diff_us(last_draw, get_absolute_time()) > 700000) {
+			menu_draw();
+			last_draw = get_absolute_time();
+		}
 
         // Toggle LED every 1000ms, non-blocking
         if (absolute_time_diff_us(last_led_toggle, get_absolute_time()) > 1000000) {
