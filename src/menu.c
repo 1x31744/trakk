@@ -8,7 +8,9 @@
 static Menu *currentMenu = NULL;
 static int currentIndex = 0;
 bool previous[ROWS][COLUMNS];
-Mode currentMode = NAVIGATION;
+Mode currentMode = TEXT_ENTRY;
+extern int cursorRow;
+extern int cursorColumn;
 
 void nav_up() {
 	menuItem *itemArray = currentMenu->items;
@@ -53,16 +55,17 @@ TextButton textButtons[ROWS][COLUMNS] =
 void text_actions(int row, int column) {
 
 
-	if (absolute_time_diff_us(textButtons[row][columns].lastPressed, get_absolute_time()) < 1000) {
+	if (absolute_time_diff_us(textButtons[row][column].lastPressed, get_absolute_time()) < 1000) {
 		//get cursor x-1, and draw character there with the index of timesPressed (increase and wrap times pressed)
-		textButtons[row][column].timesPressed = (textButtons[row][column].timesPressed + 1) % 3;
+		lcd_set_cursor(cursorColumn - 1, cursorRow);
 	} else {
 		//draw character normally
-		lcd_draw(textButtons[row][column].text[textButtons[row][column].timesPressed]);
-		textButtons[row][column].timesPressed += 1;
+		textButtons[row][column].timesPressed = 0;
 	}
 
-	textButtons[row][colums].lastPressed = get_absolute_time();
+	lcd_string((char[]){textButtons[row][column].text[textButtons[row][column].timesPressed], '\0'});
+	textButtons[row][column].timesPressed = (textButtons[row][column].timesPressed + 1) % 3;
+	textButtons[row][column].lastPressed = get_absolute_time();
 
 }
 
@@ -113,4 +116,5 @@ void menu_handle_input(bool currentMatrix[ROWS][COLUMNS]) {
             previous[r][c] = currentMatrix[r][c];
         }
     }
+	menu_draw();
 }

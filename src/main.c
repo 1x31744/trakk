@@ -79,11 +79,6 @@ int main() {
             }
         }
 
-		if (absolute_time_diff_us(last_draw, get_absolute_time()) > 700000) {
-			menu_draw();
-			last_draw = get_absolute_time();
-		}
-
         // Toggle LED every 1000ms, non-blocking
         if (absolute_time_diff_us(last_led_toggle, get_absolute_time()) > 1000000) {
             led_state = !led_state;

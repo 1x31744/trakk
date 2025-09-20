@@ -3,6 +3,9 @@
 #include "hardware/spi.h"
 #include "pico/stdlib.h"
 
+int cursorRow;
+int cursorColumn;
+
 // --- Pulse Enable for i2c---
 void pulse_enable(uint8_t data) {
     uint8_t data_high = data | LCD_E;
@@ -70,6 +73,8 @@ void lcd_init() {
 
 // --- Set cursor for 20x4 LCD ---
 void lcd_set_cursor(uint8_t col, uint8_t row) {
+	cursorRow = row;
+	cursorColumn = col;
     static const uint8_t row_offsets[] = {0x00, 0x40, 0x14, 0x54};
     lcd_byte(0x80 | (col + row_offsets[row]), false);
 }
