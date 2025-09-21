@@ -7,7 +7,6 @@
 
 static Menu *currentMenu = NULL;
 static int currentIndex = 0;
-bool previous[ROWS][COLUMNS];
 Mode currentMode = TEXT_ENTRY;
 extern int cursorRow;
 extern int cursorColumn;
@@ -50,22 +49,23 @@ void (*navigation_actions[ROWS][COLUMNS])(void) = {{NULL, nav_up, NULL},
 TextButton textButtons[ROWS][COLUMNS] = 
 {{{"1abc", 0, 0}, {"2def", 0, 0}, {"3ghi", 0, 0}},
 {{"4jkl", 0, 0,}, {"5mno", 0, 0},{"6pqr", 0, 0}},
-{{"7stu", 0, 0}, {"8vwx", 0, 0}, {"9yz", 0, 0}}};
+{{"7stu", 0, 0}, {"8vwx", 0, 0}, {"9yz0", 0, 0}}};
 
-void text_actions(int row, int column) {
+void text_actions(int row, int column) { //error, prints first item of each text because updates each button on a press, maybe change the input function to just output r and c
+	int *timesPressed = &textButtons[row][column].timesPressed;
+	absolute_time_t *lastPressed = &textButtons[row][column].lastPressed;
 
-
-	if (absolute_time_diff_us(textButtons[row][column].lastPressed, get_absolute_time()) < 1000) {
+	if (absolute_time_diff_us(*lastPressed, get_absolute_time()) < 500000) {
 		//get cursor x-1, and draw character there with the index of timesPressed (increase and wrap times pressed)
 		lcd_set_cursor(cursorColumn - 1, cursorRow);
 	} else {
 		//draw character normally
-		textButtons[row][column].timesPressed = 0;
+		*timesPressed = 0;
 	}
 
-	lcd_string((char[]){textButtons[row][column].text[textButtons[row][column].timesPressed], '\0'});
-	textButtons[row][column].timesPressed = (textButtons[row][column].timesPressed + 1) % 3;
-	textButtons[row][column].lastPressed = get_absolute_time();
+	lcd_string((char[]){textButtons[row][column].text[*timesPressed], '\0'});
+	*timesPressed = (*timesPressed + 1) % 3;
+	*lastPressed = get_absolute_time();
 
 }
 
@@ -101,20 +101,19 @@ void menu_draw(void) {
 }
 
 void menu_handle_input(bool currentMatrix[ROWS][COLUMNS]) {
+	for (int r = 0; r < ROWS; r++) {
+		for (int c = 0; c < COLUMNS; c++) {
 
-    for (int r = 0; r < ROWS; r++) {
-        for (int c = 0; c < COLUMNS; c++) {
-            if (currentMatrix[r][c] != previous[r][c]) {
-                switch (currentMode) {
-                case NAVIGATION:
-                    navigation_actions[r][c]();
-                    break;
-				case TEXT_ENTRY:
+			switch (currentMode) {
+				case NAVIGATION:
+					navigation_actions[r][c]();
+					menu_draw();
 					break;
-				}
-            }
-            previous[r][c] = currentMatrix[r][c];
-        }
-    }
-	menu_draw();
+				case TEXT_ENTRY:
+					text_actions(r, c);
+					//eventually will need to turn text into an intem and draw in memory draw
+					break;
+			}
+		}
+	}
 }

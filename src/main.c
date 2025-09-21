@@ -63,21 +63,23 @@ int main() {
     absolute_time_t last_led_toggle = get_absolute_time();
 	absolute_time_t last_draw = get_absolute_time();
     bool led_state = false;
-    matrix_init();
-
+    matrix_init();	
+	bool prev[ROWS][COLUMNS] = {0};
+	bool current[ROWS][COLUMNS] = {0};
     while (true) {
-        bool rows[3][3] = {0};
-        matrix_scan(rows);
-        menu_handle_input(rows);
+        matrix_scan(current);
 
-        // Check all buttons
-        for (int r = 0; r < 3; r++) {
-            for (int c = 0; c < 3; c++) {
-                if (rows[r][c]) {
-                    printf("Button pressed at row %d, column %d\n", r, c);
-                }
-            }
-        }
+		for (int r = 0; r < ROWS; r++) {
+			for (int c = 0; c < COLUMNS; c++) {
+				if (current[r][c] && !prev[r][c]) {
+					// Transition: released → pressed
+					menu_handle_input(current);
+				}
+				// Update history
+				prev[r][c] = current[r][c];
+			}
+		}
+	
 
         // Toggle LED every 1000ms, non-blocking
         if (absolute_time_diff_us(last_led_toggle, get_absolute_time()) > 1000000) {
