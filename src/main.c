@@ -62,11 +62,13 @@ int main() {
 
     absolute_time_t last_led_toggle = get_absolute_time();
 	absolute_time_t last_draw = get_absolute_time();	
-	bool led_state = false;
+    bool led_state = true;
+	bool previous_button_state = false;
     while (true) {				
-		int* press = matrix_scan();
-		if (press[0] != -1) {
-			menu_handle_input(press[0], press[1]);
+		ButtonPress press = matrix_scan();
+		if (press.pressed != previous_button_state) {
+			menu_handle_input(press.row, press.col);
+			previous_button_state = press.pressed;
 		}
 
         // Toggle LED every 1000ms, non-blocking
