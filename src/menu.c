@@ -100,20 +100,16 @@ void menu_draw(void) {
     }
 }
 
-void menu_handle_input(bool currentMatrix[ROWS][COLUMNS]) {
-	for (int r = 0; r < ROWS; r++) {
-		for (int c = 0; c < COLUMNS; c++) {
+void menu_handle_input(int r, int c) {
 
-			switch (currentMode) {
-				case NAVIGATION:
-					navigation_actions[r][c]();
-					menu_draw();
-					break;
-				case TEXT_ENTRY:
-					text_actions(r, c);
-					//eventually will need to turn text into an intem and draw in memory draw
-					break;
-			}
-		}
+	switch (currentMode) {
+		case NAVIGATION:
+			navigation_actions[r][c]();
+			menu_draw();
+			break;
+		case TEXT_ENTRY:
+			text_actions(r, c);
+			//eventually will need to turn text into an intem and draw in memory draw
+			break;
 	}
 }

@@ -10,6 +10,6 @@ void matrix_init();
 void matrix_clear_columns();
 void matrix_set_column(int col);
 bool* matrix_read_rows();
-void matrix_scan(bool rows[3][3]);
+int* matrix_scan();
 
 #endif

@@ -34,7 +34,7 @@ struct Menu {
 // API
 void menu_init(Menu *root);
 void menu_draw(void);
-void menu_handle_input(bool currentMatrix[ROWS][COLUMNS]);
+void menu_handle_input(int r, int c);
 
 // Action enums (from buttons)
 enum { ACTION_NONE, ACTION_UP, ACTION_DOWN, ACTION_ENTER, ACTION_BACK };

@@ -61,25 +61,13 @@ int main() {
     */
 
     absolute_time_t last_led_toggle = get_absolute_time();
-	absolute_time_t last_draw = get_absolute_time();
-    bool led_state = false;
-    matrix_init();	
-	bool prev[ROWS][COLUMNS] = {0};
-	bool current[ROWS][COLUMNS] = {0};
-    while (true) {
-        matrix_scan(current);
-
-		for (int r = 0; r < ROWS; r++) {
-			for (int c = 0; c < COLUMNS; c++) {
-				if (current[r][c] && !prev[r][c]) {
-					// Transition: released → pressed
-					menu_handle_input(current);
-				}
-				// Update history
-				prev[r][c] = current[r][c];
-			}
+	absolute_time_t last_draw = get_absolute_time();	
+	bool led_state = false;
+    while (true) {				
+		int* press = matrix_scan();
+		if (press[0] != -1) {
+			menu_handle_input(press[0], press[1]);
 		}
-	
 
         // Toggle LED every 1000ms, non-blocking
         if (absolute_time_diff_us(last_led_toggle, get_absolute_time()) > 1000000) {

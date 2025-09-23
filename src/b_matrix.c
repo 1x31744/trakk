@@ -32,7 +32,7 @@ void matrix_init() {
     gpio_put(COLUMN_3, 1);
 }
 
-void matrix_scan(bool rows[3][3]) {
+int* matrix_scan(void) {
     for (int col = 0; col < 3; col++) {
         matrix_clear_columns();
         matrix_set_column(col);
@@ -40,9 +40,10 @@ void matrix_scan(bool rows[3][3]) {
         bool* row_data = matrix_read_rows();
         for (int row = 0; row < 3; row++) {
             if (row_data[row]) {
-                rows[row][col] = true;
-            } else {
-                rows[row][col] = false; // optional: clear if not pressed
+                static int press[2];
+				press[0] = row;
+				press[1] = col;
+				return press;
             }
         }
     }
