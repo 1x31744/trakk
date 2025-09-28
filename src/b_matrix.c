@@ -2,6 +2,7 @@
 #include "../include/config.h"
 #include "hardware/spi.h"
 #include "pico/stdlib.h"
+#include <stdbool.h>
 
 void matrix_init() {
     // Initialize row pins as input
@@ -33,19 +34,20 @@ void matrix_init() {
 }
 
 ButtonPress matrix_scan(void) {
-    for (int col = 0; col < 3; col++) {
+    for (int col = 0; col < COLUMNS; col++) {
         matrix_clear_columns();
         matrix_set_column(col);
         //sleep_us(100); // Allow time for the column to stabilize
         bool* row_data = matrix_read_rows();
-        for (int row = 0; row < 3; row++) {
+        for (int row = 0; row < ROWS; row++) {
             if (row_data[row]) {
 				return (ButtonPress){row, col, true};
-            } else {
-				return (ButtonPress){row, col, true};
-			}
+				printf("button is being pressed at %d,%d", row, col);
+            }
         }
     }
+	//nothing has been pressed
+	return (ButtonPress){-1, -1, false};
 }
 
 bool* matrix_read_rows() {

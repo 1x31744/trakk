@@ -7,7 +7,7 @@
 
 static Menu *currentMenu = NULL;
 static int currentIndex = 0;
-Mode currentMode = TEXT_ENTRY;
+Mode currentMode = NAVIGATION;
 extern int cursorRow;
 extern int cursorColumn;
 
@@ -83,7 +83,7 @@ void menu_init(Menu * root) {
 void menu_draw(void) {
     if (!currentMenu)
         return;
-
+	//4 is used for the number of lines of the lcd
     for (uint8_t r = 0; r < 4; r++) {
         lcd_set_cursor(0, r);
         lcd_string("                    ");
