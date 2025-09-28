@@ -1,6 +1,0 @@
-/home/TotallyOrdinaryPC/Documents/trakk/build/_deps/picotool/picotool
-/home/TotallyOrdinaryPC/Documents/trakk/build/_deps/picotool/picotoolTargets.cmake
-/home/TotallyOrdinaryPC/Documents/trakk/build/_deps/picotool/picotoolTargets-release.cmake
-/home/TotallyOrdinaryPC/Documents/trakk/build/_deps/picotool/picotoolConfig.cmake
-/home/TotallyOrdinaryPC/Documents/trakk/build/_deps/picotool/picotoolConfigVersion.cmake
-/home/TotallyOrdinaryPC/Documents/trakk/build/_deps/picotool/enc_bootloader.elf
