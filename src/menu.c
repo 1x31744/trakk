@@ -4,12 +4,9 @@
 #include "hardware/spi.h"
 #include "pico/stdlib.h"
 
-
 static Menu *currentMenu = NULL;
-static int currentIndex = 0;
+bool previous[ROWS][COLUMNS];
 Mode currentMode = NAVIGATION;
-extern int cursorRow;
-extern int cursorColumn;
 
 void nav_up() {
 	menuItem *itemArray = currentMenu->items;
@@ -19,7 +16,8 @@ void nav_up() {
 	for (int i = 0;i < currentMenu->itemCount; i++) if (itemArray[i].row > current_r) {
 		current_r = itemArray[i].row;
 		*selected = i;
-	};
+		break; // go to the next higher item so break
+	}; // current error in this because it goes backwards
 
 }
 
@@ -31,6 +29,7 @@ void nav_down() {
 	for (int i = 0;i < currentMenu->itemCount; i++) if (itemArray[i].row < current_r) {
 		current_r = itemArray[i].row;
 		*selected = i;
+		break;
 	};
 
 }
@@ -46,33 +45,9 @@ void (*navigation_actions[ROWS][COLUMNS])(void) = {{NULL, nav_up, NULL},
                                                    {nav_left, nav_ok, nav_right},
                                                    {NULL, nav_down, NULL}};
 
-TextButton textButtons[ROWS][COLUMNS] = 
-{{{"1abc", 0, 0}, {"2def", 0, 0}, {"3ghi", 0, 0}},
-{{"4jkl", 0, 0,}, {"5mno", 0, 0},{"6pqr", 0, 0}},
-{{"7stu", 0, 0}, {"8vwx", 0, 0}, {"9yz0", 0, 0}}};
-
-void text_actions(int row, int column) { //error, prints first item of each text because updates each button on a press, maybe change the input function to just output r and c
-	int *timesPressed = &textButtons[row][column].timesPressed;
-	absolute_time_t *lastPressed = &textButtons[row][column].lastPressed;
-
-	if (absolute_time_diff_us(*lastPressed, get_absolute_time()) < 500000) {
-		//get cursor x-1, and draw character there with the index of timesPressed (increase and wrap times pressed)
-		lcd_set_cursor(cursorColumn - 1, cursorRow);
-	} else {
-		//draw character normally
-		*timesPressed = 0;
-	}
-
-	lcd_string((char[]){textButtons[row][column].text[*timesPressed], '\0'});
-	*timesPressed = (*timesPressed + 1) % 3;
-	*lastPressed = get_absolute_time();
-
-}
-
 // Initialize menu system with root menu
 void menu_init(Menu * root) {
-    currentMenu = root;
-    currentIndex = 0;
+    currentMenu = root; 
 
     lcd_init();
     lcd_backlight(true);
@@ -83,7 +58,7 @@ void menu_init(Menu * root) {
 void menu_draw(void) {
     if (!currentMenu)
         return;
-	//4 is used for the number of lines of the lcd
+
     for (uint8_t r = 0; r < 4; r++) {
         lcd_set_cursor(0, r);
         lcd_string("                    ");
@@ -100,16 +75,21 @@ void menu_draw(void) {
     }
 }
 
-void menu_handle_input(int r, int c) {
-
-	switch (currentMode) {
-		case NAVIGATION:
-			navigation_actions[r][c]();
-			menu_draw();
-			break;
-		case TEXT_ENTRY:
-			text_actions(r, c);
-			//eventually will need to turn text into an intem and draw in memory draw
-			break;
-	}
+void menu_handle_input(bool currentMatrix[ROWS][COLUMNS]) {
+    for (int r = 0; r < ROWS; r++) {
+        for (int c = 0; c < COLUMNS; c++) {
+            if (currentMatrix[r][c] && !previous[r][c]) {
+                switch (currentMode) {
+                case NAVIGATION:
+                    navigation_actions[r][c]();
+					menu_draw();
+                    break;
+				case TEXT_ENTRY:
+					break;
+				}
+            }
+            previous[r][c] = currentMatrix[r][c];
+        }
+    }
 }
+

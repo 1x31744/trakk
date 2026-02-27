@@ -17,6 +17,7 @@ void init() {
 
     // Initialize serial & I2C
     stdio_init_all();
+
     i2c_init(I2C_PORT, 100 * 1000);
     gpio_set_function(SDA_PIN, GPIO_FUNC_I2C);
     gpio_set_function(SCL_PIN, GPIO_FUNC_I2C);
@@ -26,19 +27,24 @@ void init() {
 
     sleep_ms(2000);
 
+	gpio_put(LED_PIN, true);
+
     // SD card init
     sd_init(CS_PIN);
 
-    gpio_put(LED_PIN, true);
+    
 }
 
 int main() {
+	
     init();
 
-    menuItem rootItems[2] = {{.label = "Add workout", .type = MENU_SUBMENU, .col = 0, .row = 0, .submenu = NULL},
-                             {.label = "Settings", .type = MENU_SUBMENU, .col = 0, .row = 1, .submenu = NULL}};
+    menuItem rootItems[3] = {{.label = "Add workout", .type = MENU_SUBMENU, .col = 0, .row = 0, .submenu = NULL},
+                             {.label = "Settings", .type = MENU_SUBMENU, .col = 0, .row = 1, .submenu = NULL},
+							 {.label = "Notes", .type = MENU_SUBMENU, .col = 0, .row = 2, .submenu = NULL}};
 
-    Menu root = {.title = "Home", .items = rootItems, .itemCount = 2, .parent = NULL, .selected_item = 0};
+
+    Menu root = {.title = "Home", .items = rootItems, .itemCount = 3, .parent = NULL, .selected_item = 0};	
 
     menu_init(&root);
 
@@ -60,29 +66,28 @@ int main() {
     }
     */
 
-    absolute_time_t last_led_toggle = get_absolute_time();
-	absolute_time_t last_draw = get_absolute_time();	
-    bool led_state = true;
-	bool previous_button_state = false;
-	bool prevStates[3][3] = {0};
-    while (true) {				
-		ButtonPress press = matrix_scan();
+    absolute_time_t last_led_toggle = get_absolute_time();	
+    bool led_state = false;
+    matrix_init();
+	bool previousRows[ROWS][COLUMNS] = {0};
 
-		if (press.pressed && press.row >= 0 && press.col >= 0) {
-			if (!prevStates[press.row][press.col]) {
-				menu_handle_input(press.row, press.col);
-			} 
-			prevStates[press.row][press.col] = true;
-		}
+    while (true) {
+        bool rows[ROWS][COLUMNS] = {0};
+        matrix_scan(rows);
+        menu_handle_input(rows);
 
-		if (!press.pressed) {
-			for (int r = 0; r < ROWS; r++)
-				for (int c = 0; c < COLUMNS; c++)
-					prevStates[r][c] = false;
-		}
+        // Check all buttons
+        for (int r = 0; r < ROWS; r++) {
+            for (int c = 0; c < COLUMNS; c++) {
+                if (rows[r][c]) {
+					//lcd_set_cursor(0, 0);
+                    lcd_string("Button pressed");
+                }
+            }
+        }
 
         // Toggle LED every 1000ms, non-blocking
-        if (absolute_time_diff_us(last_led_toggle, get_absolute_time()) > 1000000) {
+        if (absolute_time_diff_us(last_led_toggle, get_absolute_time()) > 1000000){
             led_state = !led_state;
             gpio_put(LED_PIN, led_state);
             last_led_toggle = get_absolute_time();

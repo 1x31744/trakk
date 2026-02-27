@@ -19,16 +19,18 @@
 // SD card
 #define CS_PIN 10
 
-#define COLUMN_1 2
-#define COLUMN_2 3
-#define COLUMN_3 4
+#define COLUMN_1 5
+#define COLUMN_2 4
+#define COLUMN_3 3
+#define COLUMN_4 2
 
-#define ROW_1 5
-#define ROW_2 6
-#define ROW_3 7
+#define ROW_1 6
+#define ROW_2 7
+#define ROW_3 8
+#define ROW_4 9
 
-#define ROWS 3
-#define COLUMNS 3
+#define ROWS 4
+#define COLUMNS 4
 
 // LED pin
 #define LED_PIN 17

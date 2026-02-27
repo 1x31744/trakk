@@ -2,6 +2,7 @@
 #include "../include/config.h"
 #include "hardware/spi.h"
 #include "pico/stdlib.h"
+#include "../include/lcd.h"
 
 // static to keep private to this file
 static uint cs_pin;
@@ -51,6 +52,8 @@ bool sd_init(uint8_t cs) {
     // Send 80 dummy clocks
     for (int i = 0; i < 10; i++) spi_txrx(0xFF);
 
+	lcd_set_cursor(0, 0);
+	lcd_string("Trying CMD0");
     // CMD0 loop
     uint8_t r;
     do {
@@ -64,9 +67,13 @@ bool sd_init(uint8_t cs) {
     if (r != 0x01 && r != 0x05) {
         return false; // unsupported
     }
+	
+	lcd_set_cursor(0,0);
+	lcd_string("Trying ACMD41");
 
     // ACMD41 init loop
     do {
+		//lcd_set_cursor(0, 0);
         sd_send_command(55, 0, 0x65);
         r = sd_send_command(41, 0x40000000, 0x77);
         gpio_put(cs_pin, 1);
