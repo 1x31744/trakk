@@ -39,12 +39,36 @@ int main() {
 	
     init();
 
-    menuItem rootItems[3] = {{.label = "Add workout", .type = MENU_SUBMENU, .col = 0, .row = 0, .submenu = NULL},
-                             {.label = "Settings", .type = MENU_SUBMENU, .col = 0, .row = 1, .submenu = NULL},
-							 {.label = "Notes", .type = MENU_SUBMENU, .col = 0, .row = 2, .submenu = NULL}};
-
-
-    Menu root = {.title = "Home", .items = rootItems, .itemCount = 3, .parent = NULL, .selected_item = 0};	
+    Menu root;
+    
+    menuItem noteMenuItems[2] = {
+        {.label = "New", .type = MENU_SUBMENU, .col = 0, .row = 3, .submenu = NULL},
+        {.label = "Delete", .type = MENU_ACTION, .col = 9, .row = 3, .submenu = NULL}
+    };
+    
+    Menu noteMenu = {
+        .title = "Note Menu",
+        .items = noteMenuItems,
+        .itemCount = 2,
+        .parent = NULL,
+        .selected_item = 0
+    };
+    
+    menuItem rootItems[3] = {
+        {.label = "Add workout", .type = MENU_SUBMENU, .col = 0, .row = 0, .submenu = NULL},
+        {.label = "Settings", .type = MENU_SUBMENU, .col = 0, .row = 1, .submenu = NULL},
+        {.label = "Notes", .type = MENU_SUBMENU, .col = 0, .row = 2, .submenu = &noteMenu}
+    };
+    
+    root = (Menu){
+        .title = "Home",
+        .items = rootItems,
+        .itemCount = 3,
+        .parent = NULL,
+        .selected_item = 0
+    };
+    
+    noteMenu.parent = &root;
 
     menu_init(&root);
 
@@ -75,15 +99,30 @@ int main() {
         bool rows[ROWS][COLUMNS] = {0};
         matrix_scan(rows);
         menu_handle_input(rows);
+    
+        bool changed = false;
 
-        // Check all buttons
+        // check if anything changed
         for (int r = 0; r < ROWS; r++) {
             for (int c = 0; c < COLUMNS; c++) {
-                if (rows[r][c]) {
-					//lcd_set_cursor(0, 0);
-                    lcd_string("Button pressed");
+                if (rows[r][c] != previousRows[r][c]) {
+                    changed = true;
                 }
             }
+        }
+
+        if (changed) {
+            printf("\n");
+
+            for (int r = 0; r < ROWS; r++) {
+                for (int c = 0; c < COLUMNS; c++) {
+                    printf("%d ", rows[r][c]);
+                    previousRows[r][c] = rows[r][c];  // update stored state
+                }
+                printf("\n");
+            }
+
+            printf("\n");
         }
 
         // Toggle LED every 1000ms, non-blocking

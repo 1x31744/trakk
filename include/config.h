@@ -24,10 +24,10 @@
 #define COLUMN_3 3
 #define COLUMN_4 2
 
-#define ROW_1 6
-#define ROW_2 7
-#define ROW_3 8
-#define ROW_4 9
+#define ROW_1 9
+#define ROW_2 8
+#define ROW_3 7
+#define ROW_4 6
 
 #define ROWS 4
 #define COLUMNS 4

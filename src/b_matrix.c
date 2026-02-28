@@ -58,7 +58,7 @@ void matrix_scan(bool rows[ROWS][COLUMNS]) {
 
 bool* matrix_read_rows() {
     static bool rows[ROWS];
-    printf("Reading rows: %d %d %d\n", gpio_get(ROW_1), gpio_get(ROW_2), gpio_get(ROW_3));
+    //printf("Reading rows: %d %d %d %d\n", gpio_get(ROW_1), gpio_get(ROW_2), gpio_get(ROW_3), gpio_get(ROW_4));
     rows[0] = (gpio_get(ROW_1) == 0);
     rows[1] = (gpio_get(ROW_2) == 0);
     rows[2] = (gpio_get(ROW_3) == 0);
